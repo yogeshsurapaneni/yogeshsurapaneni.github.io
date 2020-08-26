@@ -6,8 +6,9 @@ feature_image: "assets/profile.jpg"
 excerpt: ""
 aside: true
 ---
+Hello! Welcome to my Blog. 
 
-I am a DevOps Engineer working for a company based out of the Bay Area, California. My primary skills are Infrastructure Automation, Cloud Provisioning, and Hybrid cloud management, Ansible, CI/CD and Linux. I have around 5 Years of Information Technology experience and I am certified professional in AWS and Kubernets.
+My name is Yogesh Surapaneni, I am a DevOps Engineer working for a company based out of the Bay Area, California. My primary skills are Infrastructure Automation, Cloud Provisioning, and Hybrid cloud management, Ansible, CI/CD and Linux. I have around 5 Years of Information Technology experience and I am certified professional in AWS and Kubernets.
 
 In this blog, I want to discuss and post thoughts, problems, and solutions on the current DevOps scenarios and also want to blog my journey as an aspiring software engineer.
 
