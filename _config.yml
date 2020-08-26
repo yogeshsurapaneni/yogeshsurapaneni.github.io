@@ -65,8 +65,8 @@ collections:
     output: true
     description: "My Notes and Posts" # The post list page content
     feature_text: |
-      Welcome to my blog
-    feature_image: "https://picsum.photos/2560/600?image=866"
+      
+    feature_image: "../assets/banner2.jpg"
 
 # 6. Jekyll collections settings
 defaults:
@@ -106,27 +106,27 @@ css_inline: true # Will insert all styles into a single <style> block in the <he
 
 # 8. Site favicons & manifest icons
 favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
-  16: '/assets/logos/logo@16px.png'
-  32: '/assets/logos/logo@32px.png'
-  96: '/assets/logos/logo@96px.png'
-  120: '/assets/logos/logo@120px.png'
-  144: '/assets/logos/logo@144px.png'
-  180: '/assets/logos/logo@180px.png'
-  512: '/assets/logos/logo@512px.png'
-  1024: '/assets/logos/logo@1024px.png'
+  16: '/assets/DevOps with Yogesh.png'
+  32: '/assets/DevOps with Yogesh.png'
+  96: '/assets/DevOps with Yogesh.png'
+  120: '/assets/DevOps with Yogesh.png'
+  144: '/assets/DevOps with Yogesh.png'
+  180: '/assets/DevOps with Yogesh.png'
+  512: '/assets/DevOps with Yogesh.png'
+  1024: '/assets/DevOps with Yogesh.png'
 
 # 9. Site navigation
 navigation_header:
-- title: Blog
+- title: About Me
   url: /
+- title: Blog
+  url: /blog/
 - title: Categories
   url: /categories/
-- title: Documentation
+- title: Docs
   url: https://yogeshsurapaneni.github.io/documentation/
 - title: Search
   url: /search/
-- title: About Me
-  url: /elements/
 
 navigation_footer:
 - title: Yogesh Surapaneni
