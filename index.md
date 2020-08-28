@@ -2,7 +2,7 @@
 title: About Me
 feature_text: |
   
-feature_image: "assets/profile.jpg"
+feature_image: "assets/banner1.jpg"
 excerpt: ""
 aside: true
 ---

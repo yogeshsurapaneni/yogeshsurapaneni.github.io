@@ -1,21 +1,18 @@
-<aside class="aside  typeset  aside--{{ include.align | default: 'right' }}">
+<aside class="aside  typeset  aside--{{ include.align | default: 'left' }}">
 
+  <div class="islet">
+    <img class="img--center img--small" src="../assets/profile.jpg" height="512" width="512" />
+  </div>
+
+  <section class="section  section--category-index">
+    <h4>Blog Topics</h4>
+    {% include nav-categories.html %}
+</section>
+  
   {% if page.layout == "post" %}
     <section class="section  section--related-posts">
       {% include post-related.html %}
     </section>
-
-  {% elsif page.layout == "page" or page.layout == "home" or page.layout == "blog" %}
-    <section class="section  section--description">
-      {% include nav-social.html %}
-    </section>
-
-  {% elsif page.layout == "categories" %}
-    <section class="section  section--category-index">
-      <h3>Index</h3>
-      {% include nav-categories.html %}
-    </section>
-
   {% endif %}
 
 </aside>

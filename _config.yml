@@ -94,15 +94,16 @@ lang: en-GB # Set the site language
 title: "Yogesh Surapaneni" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: ""
-url: "https://yogeshsurapaneni.github.io" # Site url, also used in jekyll-seo-tag
+url: "yogeshsurapaneni.ml" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/yogeshsurapaneni.github.io"
 email: "yogeshsurapaneni@gmail.com"
-# disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
+disqus: "yogeshsurapaneni" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 google_analytics: 'UA-173371863-1'
 # google_analytics_anonymize_ip: ''
 # service_worker: false # Will turn off the service worker if set to false
 css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
+
 
 # 8. Site favicons & manifest icons
 favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
@@ -121,8 +122,6 @@ navigation_header:
   url: /
 - title: Blog
   url: /blog/
-- title: Categories
-  url: /categories/
 - title: Docs
   url: https://yogeshsurapaneni.github.io/docrepo/
 - title: Search
